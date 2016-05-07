@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "husky_navigation")
+set(husky_navigation_MAINTAINER "Paul Bovbel <pbovbel@clearpathrobotics.com>")
+set(husky_navigation_DEPRECATED "")
+set(husky_navigation_VERSION "0.2.7")
+set(husky_navigation_BUILD_DEPENDS "roslaunch")
+set(husky_navigation_RUN_DEPENDS "amcl" "frontier_exploration" "gmapping" "map_server" "move_base" "navfn" "base_local_planner" "dwa_local_planner")
+set(husky_navigation_BUILDTOOL_DEPENDS "catkin")

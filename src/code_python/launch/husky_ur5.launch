@@ -1,0 +1,8 @@
+<?xml version="1.0"?> 
+<launch>
+    <node pkg="code_python" type="distance.py" name="distance" >
+ </node>
+    <node pkg="code_python" type="ur_try.py" name="ur_try" >
+  </node>
+
+</launch>

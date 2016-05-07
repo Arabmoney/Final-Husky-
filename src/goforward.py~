@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+import rospy
+#from kobuki_msgs.msg import ButtonEvent
+#from kobuki_msgs.msg import Led
+from geometry_msgs.msg import Twist
+
+t=Twist()
+
+
+t.linear.x=0.1 
+t.angular.z=-0.0
+
+
+
+
+
+
+
+
+
+
+
+
+rospy.init_node('buttona')
+twist = rospy.Publisher('/cmd_vel/input/navi',Twist,queue_size= 1)
+
+
+rospy.spin() 
+

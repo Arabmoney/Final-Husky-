@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "code_python")
+set(code_python_MAINTAINER "ros <ros@todo.todo>")
+set(code_python_DEPRECATED "")
+set(code_python_VERSION "0.0.0")
+set(code_python_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(code_python_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(code_python_BUILDTOOL_DEPENDS "catkin")

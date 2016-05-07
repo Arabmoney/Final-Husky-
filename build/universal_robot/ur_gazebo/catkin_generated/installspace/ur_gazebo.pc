@@ -1,0 +1,8 @@
+prefix=/home/ros/husky_ws/install
+
+Name: ur_gazebo
+Description: Description of ur_gazebo
+Version: 1.1.5
+Cflags: 
+Libs: -L/home/ros/husky_ws/install/lib 
+Requires: 

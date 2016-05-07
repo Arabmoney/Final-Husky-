@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "husky_msgs")
+set(husky_msgs_MAINTAINER "Paul Bovbel <pbovbel@clearpathrobotics.com>")
+set(husky_msgs_DEPRECATED "")
+set(husky_msgs_VERSION "0.2.7")
+set(husky_msgs_BUILD_DEPENDS "message_generation" "std_msgs")
+set(husky_msgs_RUN_DEPENDS "message_runtime" "std_msgs")
+set(husky_msgs_BUILDTOOL_DEPENDS "catkin")

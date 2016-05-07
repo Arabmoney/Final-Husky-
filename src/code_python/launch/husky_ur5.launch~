@@ -1,0 +1,15 @@
+<?xml version="1.0"?> 
+<launch>
+
+<include file="$(find husky_gazebo)/launch/husky_empty_world.launch">
+    <arg name="world_name" value="$(find husky_gazebo)/worlds/clearpath_playpen.world"/>
+
+  </include>
+
+    <node pkg="code_python" type="distance.py" name="distance" >
+ </node>
+    <node pkg="code_python" type="ur_try.py" name="ur_try" >
+  </node>
+
+
+</launch>

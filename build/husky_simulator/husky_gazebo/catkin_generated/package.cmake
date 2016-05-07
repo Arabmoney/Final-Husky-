@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "husky_gazebo")
+set(husky_gazebo_MAINTAINER "Paul Bovbel <pbovbel@clearpathrobotics.com>")
+set(husky_gazebo_DEPRECATED "")
+set(husky_gazebo_VERSION "0.2.5")
+set(husky_gazebo_BUILD_DEPENDS "roslaunch")
+set(husky_gazebo_RUN_DEPENDS "controller_manager" "gazebo_plugins" "gazebo_ros" "gazebo_ros_control" "hector_gazebo_plugins" "husky_control" "husky_description" "pointcloud_to_laserscan" "robot_state_publisher" "rostopic")
+set(husky_gazebo_BUILDTOOL_DEPENDS "catkin")

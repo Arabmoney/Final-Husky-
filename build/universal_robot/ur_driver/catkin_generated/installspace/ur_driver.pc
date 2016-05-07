@@ -1,0 +1,8 @@
+prefix=/home/ros/husky_ws/install
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.1.5
+Cflags: -I/home/ros/husky_ws/install/include
+Libs: -L/home/ros/husky_ws/install/lib 
+Requires: dynamic_reconfigure
